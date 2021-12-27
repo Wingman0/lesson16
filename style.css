@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    max-height: 1000px; 
+    background-color: black;
+}
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 75px;
+    font-size: 25px;
+    width: 100%;
+    background-color: rgb(100, 74, 250);
+    color: white;
+}
+.text {
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+ul{
+    position: relative;
+}
+ul li{
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(100, 74, 250);;
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+}
+.s-l li {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(100, 74, 250);;
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+}
+.s-l {
+    position: absolute;
+    top: 115%;
+    left: -21%;
+    width: 85%;
+    display: none;
+}
+.b-2 {
+    position: absolute;
+    top: -1%;
+    left: 80%;
+    width: 85%;
+    display: none;
+    color: white;
+}
+ul li:hover > ul{
+    display: block;
+}
+.plus:hover {
+    background-color: rgb(255, 217, 0);
+    color: black;
+}
+
